@@ -38,5 +38,5 @@ project IQ is
    for Object_Dir      use "gen/" & Mode & "/.obj";
    for Library_ALI_Dir use "gen/" & Mode & "/.obj/ali";
    for Exec_Dir        use "gen/" & Mode;
-   for Main            use ("nearest_coin.adb");
+   for Main            use ("nearest_coin.adb", "reg_exp.adb");
 end IQ;
